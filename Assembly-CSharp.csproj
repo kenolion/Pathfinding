@@ -61,12 +61,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Followplayer.cs" />
-    <Compile Include="Assets\Scripts\DelegateHandler.cs" />
-    <Compile Include="Assets\Scripts\FlowField.cs" />
-    <Compile Include="Assets\Scripts\MapGenerator.cs" />
-    <Compile Include="Assets\Scripts\ModeHandler.cs" />
-    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\My asset\Followplayer.cs" />
+    <Compile Include="Assets\My asset\Scripts\DelegateHandler.cs" />
+    <Compile Include="Assets\My asset\Scripts\FlowField.cs" />
+    <Compile Include="Assets\My asset\Scripts\MapGenerator.cs" />
+    <Compile Include="Assets\My asset\Scripts\ModeHandler.cs" />
+    <Compile Include="Assets\My asset\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\Energizer.cs" />
+    <Compile Include="Assets\Scripts\GhostMove.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\GameGUINavigation.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\MenuNavigation.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\NameToTitle.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\PacdotSpawner.cs" />
+    <Compile Include="Assets\Scripts\GUI Scripts\Scores.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\TileManager.cs" />
+    <Compile Include="Assets\Scripts\Pacdot.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Point.cs" />
+    <Compile Include="Assets\Scripts\TargetGizmo.cs" />
+    <Compile Include="Assets\Scripts\UIScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>H:/unity stuff/FlowfieldPF/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

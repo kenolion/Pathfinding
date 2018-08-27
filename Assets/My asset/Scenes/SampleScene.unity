@@ -170,7 +170,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.42
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -585,6 +585,9 @@ MonoBehaviour:
   - {fileID: 2099090033}
   - {fileID: 1369692657}
   boxfillTile: {fileID: 11400000, guid: 7751cedbe29cef64d838bcd31916c7a2, type: 2}
+  area:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 10, y: 10, z: 0}
 --- !u!4 &1434464951
 Transform:
   m_ObjectHideFlags: 0
@@ -660,7 +663,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &2042913160
 SpriteRenderer:
   m_ObjectHideFlags: 0
